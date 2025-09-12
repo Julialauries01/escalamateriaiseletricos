@@ -4,7 +4,6 @@ import home from "../../../utility/header/home";
 import classic from "../../../utility/header/classic";
 import banner from "../../../utility/header/benner";
 import column from "../../../utility/header/columns";
-import blog from "../../../utility/header/blog";
 import pages from "../../../utility/header/pages";
 import QuickView from "../../model/SidebarCart";
 import list from "../../../utility/header/list";
@@ -262,7 +261,7 @@ const Header = ({
                       <img
                         src={
                           process.env.NEXT_PUBLIC_URL +
-                          "/assets/img/logo/logo-2.png"
+                          "/assets/img/logo/logo.png"
                         }
                         alt="Site Logo"
                       />
@@ -400,7 +399,7 @@ const Header = ({
                                       </li>
                                     </ul>
                                   </li>
-                                  <li className="dropdown drop-list">
+                                  {/* <li className="dropdown drop-list">
                                     <Link href="" className="dropdown-arrow">
                                       Blog
                                       <i className="fi-rr-angle-small-right"></i>
@@ -414,7 +413,7 @@ const Header = ({
                                         </li>
                                       ))}
                                     </ul>
-                                  </li>
+                                  </li> */}
                                   <li className="dropdown drop-list">
                                     <Link href="" className="dropdown-arrow">
                                       Pages

@@ -5,7 +5,6 @@ import classic from "../../../../utility/header/classic";
 import banner from "../../../../utility/header/benner";
 import column from "../../../../utility/header/columns";
 import list from "../../../../utility/header/list";
-import blog from "../../../../utility/header/blog";
 import pages from "../../../../utility/header/pages";
 import fruits from "../../../../utility/header/fruits";
 import bakery from "../../../../utility/header/bakery";
@@ -39,7 +38,7 @@ function HeaderManu() {
               <div className="gi-category-menu">
                 <div className="gi-category-toggle">
                   <i className="fi fi-rr-apps"></i>
-                  <span className="text">All Categories</span>
+                  <span className="text">Todas as categorias</span>
                   <i
                     className="fi-rr-angle-small-down d-1199 gi-angle"
                     aria-hidden="true"
@@ -316,7 +315,7 @@ function HeaderManu() {
                         </li>
                         <li className="dropdown drop-list position-static">
                           <Link href="" className="dropdown-arrow">
-                            Categories
+                            Categorias
                             <i className="fi-rr-angle-small-right"></i>
                           </Link>
                           <ul className="mega-menu d-block">
@@ -367,7 +366,7 @@ function HeaderManu() {
                         </li>
                         <li className="dropdown drop-list">
                           <Link href="" className="dropdown-arrow">
-                            Products<i className="fi-rr-angle-small-right"></i>
+                            Produtos<i className="fi-rr-angle-small-right"></i>
                           </Link>
                           <ul className="sub-menu">
                             {productpage.map((data, index) => (
@@ -404,18 +403,7 @@ function HeaderManu() {
                             </li>
                           </ul>
                         </li>
-                        <li className="dropdown drop-list">
-                          <Link href="" className="dropdown-arrow">
-                            Blog<i className="fi-rr-angle-small-right"></i>
-                          </Link>
-                          <ul className="sub-menu">
-                            {blog.map((data, index) => (
-                              <li key={index}>
-                                <Link href={data.href}>{data.name}</Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </li>
+                  
                         <li className="dropdown drop-list">
                           <Link href="" className="dropdown-arrow">
                             Pages<i className="fi-rr-angle-small-right"></i>

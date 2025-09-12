@@ -25,12 +25,12 @@ function BlogItem({ data }) {
             {data.title}
           </Link>
         </h3>
-        <div className="more-info">
+        {/* <div className="more-info">
           <Link href="/blog-detail-left-sidebar">
             Read More
             <i className="fi-rr-angle-double-small-right"></i>
           </Link>
-        </div>
+        </div> */}
       </div>
     </>
   );

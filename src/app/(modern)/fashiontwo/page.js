@@ -6,7 +6,6 @@ import SummerBanner from '@/components/banner/SummerBanner';
 import FashionTwoBanners from '@/components/banner/FashionTwoBanners';
 import Services from '@/components/service/Services';
 import TrendingFashionTwo from '@/components/trending/TrendingFashionTwo';
-import FashionTwoBlog from '@/components/blog/FashionTwoBlog';
 import NewsletterModalOne from '@/components/model/NewsletterModalOne';
 
 const page = () => {
@@ -20,7 +19,6 @@ const page = () => {
       <FashionTwoBanners />
       <Services />
       <TrendingFashionTwo />
-      <FashionTwoBlog />
     </>
   )
 }

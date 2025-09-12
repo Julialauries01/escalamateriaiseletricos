@@ -5,7 +5,6 @@ import classic from "../../../../utility/header/classic";
 import banner from "../../../../utility/header/benner";
 import column from "../../../../utility/header/columns";
 import list from "../../../../utility/header/list";
-import blog from "../../../../utility/header/blog";
 import Link from "next/link";
 import productpage from "../../../../utility/header/productpage";
 import pages from "../../../../utility/header/pages";
@@ -103,7 +102,7 @@ const HeaderButtom = ({ cartItems, wishlistItems }) => {
                           </li>
                           <li className="dropdown drop-list position-static">
                             <Link href="" className="dropdown-arrow">
-                              Categories
+                              Categorias
                               <i className="fi-rr-angle-small-right"></i>
                             </Link>
                             <ul className="mega-menu d-block">
@@ -154,7 +153,7 @@ const HeaderButtom = ({ cartItems, wishlistItems }) => {
                           </li>
                           <li className="dropdown drop-list">
                             <Link href="" className="dropdown-arrow">
-                              Products
+                              Produtos
                               <i className="fi-rr-angle-small-right"></i>
                             </Link>
                             <ul className="sub-menu">
@@ -192,18 +191,7 @@ const HeaderButtom = ({ cartItems, wishlistItems }) => {
                               </li>
                             </ul>
                           </li>
-                          <li className="dropdown drop-list">
-                            <Link href="" className="dropdown-arrow">
-                              Blog<i className="fi-rr-angle-small-right"></i>
-                            </Link>
-                            <ul className="sub-menu">
-                              {blog.map((data, index) => (
-                                <li key={index}>
-                                  <Link href={data.href}>{data.name}</Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </li>
+                     
                           <li className="dropdown drop-list">
                             <Link href="" className="dropdown-arrow">
                               Pages<i className="fi-rr-angle-small-right"></i>
@@ -314,13 +302,13 @@ const HeaderButtom = ({ cartItems, wishlistItems }) => {
                   <Link
                     href="/wishlist"
                     className="gi-header-btn gi-wish-toggle"
-                    title="Wishlist"
+                    title="Favoritos"
                   >
                     <div className="header-icon">
                       <i className="fi-rr-heart"></i>
                     </div>
                     <div className="gi-btn-desc">
-                      <span className="gi-btn-title">Wishlist</span>
+                      <span className="gi-btn-title">Favoritos</span>
                       <span className="gi-btn-stitle">
                         <b className="gi-wishlist-count">
                           {wishlistItems.length}

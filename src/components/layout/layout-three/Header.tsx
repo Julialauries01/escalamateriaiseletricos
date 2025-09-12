@@ -18,7 +18,7 @@ function Header() {
       <header className="gi-header">
         <HeaderTop />
         <HeaderButtom wishlistItems={wishlistItems} cartItems={cartItems} />
-        <HeaderManu />
+        {/* <HeaderManu /> */}
       </header>
     </>
   );

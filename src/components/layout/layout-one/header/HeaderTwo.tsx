@@ -80,7 +80,7 @@ function HeaderTwo({ cartItems, wishlistItems }) {
                   >
                     <input
                       className="form-control gi-search-bar"
-                      placeholder="Search Products..."
+                      placeholder="Encontre seu Produto..."
                       type="text"
                       value={searchInput}
                       onChange={handleSearch}
@@ -96,16 +96,16 @@ function HeaderTwo({ cartItems, wishlistItems }) {
               <div className="gi-header-action align-self-center">
                 <div className="gi-header-bottons">
                   {/* <!-- Header User Start --> */}
-                  <div className="gi-acc-drop">
+                  {/* <div className="gi-acc-drop">
                     <Link
                       href=""
                       className="gi-header-btn gi-header-user dropdown-toggle gi-user-toggle gi-header-rtl-btn"
                       title="Account"
-                    >
+                    > 
                       <div className="header-icon">
                         <i className="fi-rr-user"></i>
-                      </div>
-                      <div className="gi-btn-desc">
+                      </div> 
+                       <div className="gi-btn-desc">
                         <span className="gi-btn-title">Account</span>
                         <span className="gi-btn-stitle">
                           {" "}
@@ -123,7 +123,7 @@ function HeaderTwo({ cartItems, wishlistItems }) {
                             >
                               My Profile
                             </Link>
-                          </li>
+                          </li> 
                           <li>
                             <Link className="dropdown-item" href="/orders">
                               Orders
@@ -155,7 +155,7 @@ function HeaderTwo({ cartItems, wishlistItems }) {
                         </>
                       )}
                     </ul>
-                  </div>
+                  </div> */}
                   {/* <!-- Header User End -->
                                 <!-- Header wishlist Start --> */}
                   <Link
@@ -167,7 +167,7 @@ function HeaderTwo({ cartItems, wishlistItems }) {
                       <i className="fi-rr-heart"></i>
                     </div>
                     <div className="gi-btn-desc">
-                      <span className="gi-btn-title">Wishlist</span>
+                      <span className="gi-btn-title">Favoritos</span>
                       <span className="gi-btn-stitle">
                         <b className="gi-wishlist-count">
                           {wishlistItems.length}

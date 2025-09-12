@@ -5,7 +5,6 @@ import home from "../../utility/header/home";
 import banner from "../../utility/header/benner";
 import column from "../../utility/header/columns";
 import list from "../../utility/header/list";
-import blog from "../../utility/header/blog";
 import pages from "../../utility/header/pages";
 import Collapse from 'react-bootstrap/Collapse';
 
@@ -161,7 +160,7 @@ const MobileManuSidebar = ({ isMobileMenuOpen, closeMobileManu, toggleMainMenu, 
                     </ul>
                   </Collapse>
                 </li>
-                <li className="dropdown">
+                {/* <li className="dropdown">
                   <span onClick={() => toggleMainMenu('blog')} className="menu-toggle"></span>
                   <Link onClick={() => toggleMainMenu("blog")} href="#">
                     Blog
@@ -175,7 +174,7 @@ const MobileManuSidebar = ({ isMobileMenuOpen, closeMobileManu, toggleMainMenu, 
                       ))}
                     </ul>
                   </Collapse>
-                </li>
+                </li> */}
                 <li className="dropdown">
                   <span onClick={() => toggleMainMenu('pages')} className="menu-toggle"></span>
                   <Link onClick={() => toggleMainMenu("pages")} href="">

@@ -316,7 +316,7 @@ const VendorUpload = () => {
                         />
                       </Col>
                       <Col md={6}>
-                        <label className="form-label">Select Categories</label>
+                        <label className="form-label">Selecione a categoria</label>
                         <select
                           name="category"
                           id="category"

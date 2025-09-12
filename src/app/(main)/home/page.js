@@ -2,7 +2,6 @@
 
 import Banner from "@/components/banner/Banner";
 import OfferBanners from "@/components/banner/OfferBanners";
-import LatestBlog from "@/components/blog/LatestBlog";
 import Category from "@/components/category/Category";
 import Deal from "@/components/deal/Deal";
 import HeroSlider from "@/components/hero/HeroSlider";
@@ -23,7 +22,6 @@ const page = () => {
             <OfferBanners />
             <Services />
             <Trending />
-            <LatestBlog />
         </>
     )
 }
