@@ -593,7 +593,6 @@ input {
   position: relative;
   display: inline;
   padding: 0;
-  text-transform: capitalize;
   line-height: 1;
   font-family: "Manrope", sans-serif;
 }
