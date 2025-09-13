@@ -1303,7 +1303,7 @@ const CheckOut = ({
                                                 <a
                                                   style={{
                                                     fontSize: "30px",
-                                                    color: "#5caf90",
+                                                    color: "#0a225e",
                                                     position: "absolute",
                                                     top: "0",
                                                     right: "10px",

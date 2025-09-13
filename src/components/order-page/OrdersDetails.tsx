@@ -142,7 +142,7 @@ const ProductOrderDetails = ({ id }) => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#5caf90",
+                      backgroundColor: "#0a225e",
                       padding: "10px 10px",
                       borderRadius: "4px",
                       color: "whitesmoke",

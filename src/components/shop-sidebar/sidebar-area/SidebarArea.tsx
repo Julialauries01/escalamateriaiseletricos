@@ -360,7 +360,7 @@ const SidebarArea = ({
                         marginRight: "5px",
                         backgroundColor: selectedTags.includes(data.tags)
                           ? "#343a40"
-                          : "#5caf90",
+                          : "#0a225e",
                       }}
                       color="#fff"
                     >

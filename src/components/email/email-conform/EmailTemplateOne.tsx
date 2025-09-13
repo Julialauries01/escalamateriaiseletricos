@@ -37,7 +37,7 @@ const EmailTemplateOne = (opts: TextOptions): any => {
                 <tbody>
                   <tr>
                     <td>
-                      <div style={{ backgroundColor: "#5caf90" }}>
+                      <div style={{ backgroundColor: "#0a225e" }}>
                         <div
                           style={{
                             minWidth: "320px",
@@ -520,7 +520,7 @@ const EmailTemplateOne = (opts: TextOptions): any => {
                                                                       color:
                                                                         "#ffffff",
                                                                       backgroundColor:
-                                                                        "#5caf90",
+                                                                        "#0a225e",
                                                                       borderRadius:
                                                                         "4px",
                                                                       width:
@@ -592,7 +592,7 @@ const EmailTemplateOne = (opts: TextOptions): any => {
                           </div>
                         </div>
                       </div>
-                      <div style={{ backgroundColor: "#5caf90" }}>
+                      <div style={{ backgroundColor: "#0a225e" }}>
                         <div
                           style={{
                             minWidth: "320px",
@@ -796,7 +796,7 @@ const EmailTemplateOne = (opts: TextOptions): any => {
                             }}
                           >
                             <table
-                              style={{ backgroundColor: "#5caf90" }}
+                              style={{ backgroundColor: "#0a225e" }}
                               width="100%"
                               cellSpacing="0"
                               cellPadding="0"

@@ -8,17 +8,17 @@ interface RootLayoutProps {
 }
 
 export const metadata = {
-  title: "Grabit - Multipurpose eCommerce React NextJS Template",
-  description: "Multipurpose eCommerce React NextJS Template",
-
+  title: "Escala Materiais Elétricos - Tecnologia e Qualidade para sua Obra",
+  description:
+    "A Escala oferece materiais elétricos de qualidade: fios, cabos, quadros, disjuntores, interruptores, tomadas, eletrodutos e muito mais. Entrega rápida e segura para sua obra.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.ico", // depois você pode trocar pelo ícone da Escala
   },
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body style={{ background: "none" }}>
         <Loader>
           <Providers>

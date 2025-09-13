@@ -77,7 +77,7 @@ a {
 }
 
 .checkbox.style-c input:checked ~ .checkbox__checkmark {
-  background-color: #5caf90;
+  background-color: #0a225e;
 }
 
 .checkbox.style-c input:checked ~ .checkbox__checkmark:after {
@@ -134,7 +134,7 @@ a {
 }
 
 .bg-blue-500 {
-  background-color: #5caf90;
+  background-color: #0a225e;
 }
 
 .text-white {
@@ -192,12 +192,12 @@ a {
 }
 
 .switch input:checked ~ label {
-  border-color: #5caf90;
+  border-color: #0a225e;
 }
 
 .switch input:checked ~ label::after {
   translate: 30px 0;
-  background: #5caf90;
+  background: #0a225e;
 }
 
 .switch input:disabled ~ label {
@@ -242,7 +242,7 @@ a {
 }
 
 .Toastify__toast-body div a {
-  color: #5caf90;
+  color: #0a225e;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
