@@ -294,7 +294,7 @@ function Footer({ onSuccess = () => {}, onError = () => {} }) {
                                 <i className="fi fi-rr-marker location svg_img foo_svg"></i>
                               </span>
                               <p>
-                                2548 Broaddus Maple Court, Madisonville KY 4783,
+                                Julia Broaddus Maple Court, Madisonville KY 4783,
                                 USA.
                               </p>
                             </li>
