@@ -29,17 +29,18 @@ function HeroSlider() {
                     slidesPerView={1}
                     className="swiper-pagination-white gi-slider main-slider-nav main-slider-dot swiper-wrapper"
                   >
+                    {/* Slide 1 */}
                     <SwiperSlide className="gi-slide-item swiper-slide d-flex slide-1">
                       <div className="gi-slide-content slider-animation">
                         <p>
-                          Starting at $ <b>20.00</b>
+                          Energia e qualidade <b>para sua obra</b>
                         </p>
                         <h1 className="gi-slide-title">
-                          Organic & healthy vegetables
+                          Tudo em materiais elétricos em um só lugar
                         </h1>
                         <div className="gi-slide-btn">
                           <a href="#" className="gi-btn-1">
-                            Shop Now{" "}
+                            Comprar Agora{" "}
                             <i
                               className="fi-rr-angle-double-small-right"
                               aria-hidden="true"
@@ -48,17 +49,19 @@ function HeroSlider() {
                         </div>
                       </div>
                     </SwiperSlide>
+
+                    {/* Slide 2 */}
                     <SwiperSlide className="gi-slide-item swiper-slide d-flex slide-2">
                       <div className="gi-slide-content slider-animation">
                         <p>
-                          Starting at $ <b>29.99</b>
+                          Tecnologia e qualidade <b>em materiais elétricos</b>
                         </p>
                         <h1 className="gi-slide-title">
-                          Explore fresh & juicy fruits
+                          30% OFF em itens selecionados
                         </h1>
                         <div className="gi-slide-btn">
                           <Link href="/" className="gi-btn-1">
-                            Shop Now{" "}
+                            Comprar Agora{" "}
                             <i
                               className="fi-rr-angle-double-small-right"
                               aria-hidden="true"
@@ -67,7 +70,9 @@ function HeroSlider() {
                         </div>
                       </div>
                     </SwiperSlide>
-                    <div className=" swiper-pagination swiper-pagination-white"></div>
+
+                    {/* Controls */}
+                    <div className="swiper-pagination swiper-pagination-white"></div>
                     <div className="swiper-buttons">
                       <div className="swiper-button-next"></div>
                       <div className="swiper-button-prev"></div>
