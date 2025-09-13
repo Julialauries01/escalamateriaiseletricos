@@ -62,10 +62,7 @@ a {
   position: relative;
   padding-left: 30px;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+
 }
 
 .checkbox.style-c input {

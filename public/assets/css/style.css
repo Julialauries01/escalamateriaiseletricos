@@ -152,11 +152,7 @@ body {
   position: relative;
   font-family: "Poppins, sans-serif";
   font-weight: 400;
-  -webkit-user-select: none;
-  -gi-user-select: none;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+
 }
 
 h1 {
@@ -11005,10 +11001,7 @@ ul.gi li.gi-todo::before {
 }
 .gi-wishlist .gi-table tbody tr td .dis {
   color: #999;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+
 }
 .gi-wishlist .gi-table tbody tr td .btn {
   width: 30px;
